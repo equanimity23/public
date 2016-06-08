@@ -1,0 +1,148 @@
+.activity {
+	width         : 400px;
+	height        : 100%;
+	display       : block;
+	border        : 2px solid #000;
+	border-radius : 5px;
+	margin        : 5px;
+	color         : #FFF;
+	font-family   : "Proxima Nova", sans-serif;
+	font-size     : 14px; 
+}
+
+	.activity .block {
+		padding    : 8px;
+		background : rgba(76,76,76,1);
+		background : -moz-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(109,99,99,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 4%, rgba(44,44,44,1) 100%);
+		background : -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,76,76,1)), color-stop(0%, rgba(109,99,99,1)), color-stop(0%, rgba(102,102,102,1)), color-stop(4%, rgba(89,89,89,1)), color-stop(100%, rgba(44,44,44,1)));
+		background : -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(109,99,99,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 4%, rgba(44,44,44,1) 100%);
+		background : -o-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(109,99,99,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 4%, rgba(44,44,44,1) 100%);
+		background : -ms-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(109,99,99,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 4%, rgba(44,44,44,1) 100%);
+		background : linear-gradient(to bottom, rgba(76,76,76,1) 0%, rgba(109,99,99,1) 0%, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 4%, rgba(44,44,44,1) 100%);
+		filter     : progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2c2c2c', GradientType=0 );
+	}
+
+	.activity .head {
+	}
+		.activity .head .avatar {
+			display             : inline-block;
+			width               : 50px;
+			height              : 50px;
+			background-position : center center;
+			background-size     : auto 50px;
+			background-repeat   : no-repeat;
+			background-color    : #FFF; 
+			border              : 1px solid #000;
+		}
+
+		.activity .head .name_wrapper {
+			margin-left    : 5px;
+    		vertical-align : top;
+			display        : inline-block;
+			font-size      : 13px; 
+		}
+
+			.activity .head .name_wrapper .name {
+				font-size   : 18px;
+				font-weight : bold;
+			}	
+
+	.activity .body {
+		padding-bottom: 7x;
+	}	
+		.activity .body .wrapper {
+			display : block;
+		}
+			.activity .body .token {
+				display   : inline-block;
+				font-size : 	12px;
+				margin    : 2px;
+			}
+
+			.activity .provider {
+				display          : inline-block;
+				vertical-align   : middle;
+				width            : 14px;
+				height           : 14px;
+				background-image : url('../../assets/icon_social_sprite.png');
+				border-radius    : 3px;
+				margin           : 2px 4px 2px 4px;
+			}
+			.activity .provider.facebook {
+				background-position : -65px -259px;
+			}
+			.activity .provider.twitter {
+				background-position : -91px -260px;
+			}
+			.activity .provider.instagram {
+				background-position : -428px -259px;
+			}
+			.activity .provider.tumblr {
+				background-position : -506px -259px;
+			}
+			.activity .provider.reddit {
+				background-position : -247px -259px;
+			}
+
+			.activity .body .date {
+			display        : inline-block;
+			margin-left    : 4px;
+    		font-weight    : bold;
+    		vertical-align : middle;
+		}
+
+		.activity .body .attachment {
+			margin              : 10px 2px 10px 0;
+			display             : inline-block;
+			width               : 75px;
+			height              : 75px;
+			background-position : center center;
+			background-size     : auto 100px;
+			background-repeat   : no-repeat;
+			background-color    : #FFF;
+			border              : 1px solid #000;
+		}
+		.activity .body .message {
+			margin-top     : 10px;
+			display        : inline-block;
+			vertical-align : top;
+			font-size      : 13px;
+			margin         : 10px 2px 20px 2px;	
+		}
+
+		.activity .body .url {
+			display               : block;
+			background            : url('../../assets/icon_link.png') no-repeat;
+			background-position-x : 0px;
+			background-size       : 12px 12px;
+			color                 : #459feb;
+			padding-left          : 14px;
+    		font-size             : 12px;
+		}
+
+
+	.activity .foot {
+		padding : 4px;
+	}
+		.activity .btn {
+			display        : inline-block;
+			vertical-align : middle;
+			width          : 18px;
+			height         : 18px;
+			margin         : 2px;
+			cursor         : pointer;
+			border-radius  : 3px; 
+		}
+		.activity .btn_like {
+			background: url('../../assets/icon_like_inactive.png')  no-repeat center center;
+		}
+		.activity .btn_like:hover {
+			background-color: #999;
+		}
+		.activity .btn_reply {
+			background: url('../../assets/icon_reply.png')  no-repeat center center;
+		}
+		.activity .btn_reply:hover {
+			background-color: #999;
+		}
+		

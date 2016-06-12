@@ -26,11 +26,13 @@ var Activity = function(oData, oContainer) {
 		_sDisplayUrl = _sUrl.length < 40 ? _sUrl : _sUrl.substr(0, 40) + '&hellip;';
 
 	var _onBtnLikeClick	= function() {
-			Social.like(oData);
+			App.onLike(oData);
 		},
 
 		_onBtnReplyClick = function() {
-			Social.reply(oData);
+			// Social.reply(oData, function() {
+			// 	App.displayMessageReply(sProvider);
+			// });
 		},
 
 		_debug = function() {

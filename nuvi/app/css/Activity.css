@@ -59,7 +59,7 @@
 				margin    : 2px;
 			}
 
-			.activity .provider {
+			.provider {
 				display          : inline-block;
 				vertical-align   : middle;
 				width            : 14px;
@@ -68,19 +68,19 @@
 				border-radius    : 3px;
 				margin           : 2px 4px 2px 4px;
 			}
-			.activity .provider.facebook {
+			.provider.facebook {
 				background-position : -65px -259px;
 			}
-			.activity .provider.twitter {
+			.provider.twitter {
 				background-position : -91px -260px;
 			}
-			.activity .provider.instagram {
+			.provider.instagram {
 				background-position : -428px -259px;
 			}
-			.activity .provider.tumblr {
+			.provider.tumblr {
 				background-position : -506px -259px;
 			}
-			.activity .provider.reddit {
+			.provider.reddit {
 				background-position : -247px -259px;
 			}
 
